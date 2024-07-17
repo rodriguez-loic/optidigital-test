@@ -1,5 +1,5 @@
 services:
-  vue-app:
+  optidigital-test:
     build:
       context: vue-app
     container_name: optidigital-test
@@ -10,8 +10,8 @@ services:
       - '${PWD}:/app'
       - '${PWD}/cert.pem:/app/cert.pem'
       - '${PWD}/key.pem:/app/key.pem'
-      - '${PWD}/vue-app/node_modules:/app/node_modules'
-      - '${PWD}/vue-app/dist:/app/dist'
+      - /app/node_modules
+      - /app/dist
     networks:
       - vue-network
 networks:

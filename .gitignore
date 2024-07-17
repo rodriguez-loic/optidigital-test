@@ -1,0 +1,16 @@
+vue-app/dist/*
+vue-app/node_modules/*
+vue-app/.env.production
+cert.pem
+key.pem
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

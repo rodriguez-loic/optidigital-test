@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import Prebid from './Prebid';
 import APS from './APS';
 import GPT from './GPT';
