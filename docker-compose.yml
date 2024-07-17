@@ -1,0 +1,19 @@
+services:
+  vue-app:
+    build:
+      context: vue-app
+    container_name: optidigital-test
+    restart: always
+    ports:
+      - '8080:8080'
+    volumes:
+      - '${PWD}:/app'
+      - '${PWD}/cert.pem:/app/cert.pem'
+      - '${PWD}/key.pem:/app/key.pem'
+      - '${PWD}/vue-app/node_modules:/app/node_modules'
+      - '${PWD}/vue-app/dist:/app/dist'
+    networks:
+      - vue-network
+networks:
+  vue-network:
+    driver: bridge

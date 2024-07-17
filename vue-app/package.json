@@ -1,0 +1,25 @@
+{
+  "name": "optidigital-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@types/google-publisher-tag": "^1.20240701.0",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20.14.11",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}

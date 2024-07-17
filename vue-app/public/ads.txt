@@ -1,0 +1,4 @@
+google.com, pub-8074075418228086, DIRECT, f08c47fec0942fa0
+appnexus.com, 12345, DIRECT, f5ab79cb980f11d1
+onetag.com, 386276e072
+nobid.io, 2

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/assets/img/logo-opti-2.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OptiDigital Test</title>
+        <script src="//c.amazon-adsystem.com/aax2/apstag.js"></script>
+        <script
+                id="Cookiebot"
+                src="https://consent.cookiebot.com/uc.js"
+                data-cbid="%VITE_COOKIEBOT_DOMAIN_ID%"
+                data-framework="TCFv2.2"
+                data-widget-enabled="true"
+                type="text/javascript"
+        ></script>
+        <script async src="//securepubads.g.doubleclick.net/tag/js/gpt.js" crossorigin="anonymous"></script>
+        <script async src="//cdn.jsdelivr.net/npm/prebid.js@latest/dist/not-for-prod/prebid.js"></script>
+    </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GTAG_ID%"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '%VITE_GTAG_ID%');
+    </script>
+    <body>
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=%VITE_GTM_ID%" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <div id="app"></div>
+        <script type="module" src="./src/main.ts"></script>
+    </body>
+</html>
