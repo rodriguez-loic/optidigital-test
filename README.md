@@ -31,11 +31,11 @@ You can then access the resource at [localhost port 8080](http://localhost:8080)
 ## Configuration
 
 Please keep in mind this project is configured for localhost with example placement ids.
-You should replace this ids in `.env` files alongside with `public/ads.txt`.
-You should also create your own Google Tag Manager account
+You should replace these ids in `.env` files alongside with `public/ads.txt`.
+You should also create your own Google Tag Manager account.
 
 ## Debug
 
 You can enable prebid dev debug by using [pbjs_debug=true](http://localhost:8080/?pbjs_debug=true) GET variable.
-Another way to debug prebid.js and get relevent information concerning bids, CSM, etc is to use [Professor Prebid](https://chromewebstore.google.com/detail/professor-prebid/kdnllijdimhbledmfdbljampcdphcbdc?hl=fr) extension for Google Chrome.
+Another way to debug prebid.js and get relevant information concerning bids, CSM, etc is to use [Professor Prebid](https://chromewebstore.google.com/detail/professor-prebid/kdnllijdimhbledmfdbljampcdphcbdc?hl=fr) extension for Google Chrome.
 You can also enable google console by using [googfc](http://localhost:8080/?googfc) GET variable.
